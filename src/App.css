@@ -1,0 +1,76 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  width: 75%;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px; 
+  max-width: 150px;
+  margin: 1rem auto;
+  background-color: greenyellow;
+  font-weight: bold;
+}
+
+.wave {
+    max-width: 300px;
+    width: 70%;
+    margin: 2rem auto;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: inset 2px 2px 5px 3px;
+    border-radius: 8px;
+    background-color: gray;
+}
+
+input[type="text"] {
+    margin: 1.2rem auto;
+    padding: 0.8rem;
+    border-radius: 10px;
+    outline: none;
+    width: 75%;
+
+}
+
+body {
+    background-color: #010714;
+    padding-bottom: 3rem;
+}
+
+.boxes {
+    background-color: oldlace;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 75%;
+    max-width: 700px;
+    overflow: auto;
+}
